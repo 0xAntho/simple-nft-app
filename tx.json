@@ -1,0 +1,78 @@
+No files changed, compilation skipped
+Contract: Whitelist
+Transaction: {
+  "from": "0x567338a1bdb6d7ce2aacca25b69fc1a5c82708ca",
+  "to": null,
+  "maxFeePerGas": "0x277d12ef69",
+  "maxPriorityFeePerGas": "0x9d25c5",
+  "gas": "0x346c7",
+  "input": "0x6080604052348015600e575f5ffd5b506040516102e33803806102e3833981016040819052602b916042565b5f805460ff191660ff929092169190911790556067565b5f602082840312156051575f5ffd5b815160ff811681146060575f5ffd5b9392505050565b61026f806100745f395ff3fe608060405234801561000f575f5ffd5b506004361061004a575f3560e01c806306c933d81461004e57806331a72188146100855780634011d7cd146100a35780638e7314d9146100b0575b5f5ffd5b61007061005c3660046101e1565b60016020525f908152604090205460ff1681565b60405190151581526020015b60405180910390f35b5f546100919060ff1681565b60405160ff909116815260200161007c565b6002546100919060ff1681565b6100b86100ba565b005b335f9081526001602052604090205460ff161561012a5760405162461bcd60e51b815260206004820152602360248201527f53656e6465722068617320616c7265616479206265656e2077686974656c69736044820152621d195960ea1b60648201526084015b60405180910390fd5b5f5460025460ff9182169116106101975760405162461bcd60e51b815260206004820152602b60248201527f4d6f7265206164647265737365732063616e742062652061646465642c206c6960448201526a1b5a5d081c995858da195960aa1b6064820152608401610121565b335f9081526001602081905260408220805460ff19168217905560028054919290916101c790849060ff1661020e565b92506101000a81548160ff021916908360ff160217905550565b5f602082840312156101f1575f5ffd5b81356001600160a01b0381168114610207575f5ffd5b9392505050565b60ff818116838216019081111561023357634e487b7160e01b5f52601160045260245ffd5b9291505056fea264697066735822122052a7033376576b7c6dd307a3dfcd79db4f0311a1eaf6693ddc5ca0e07a723ec264736f6c634300081b0033000000000000000000000000000000000000000000000000000000000000000a",
+  "nonce": "0x3",
+  "chainId": "0xaa36a7"
+}
+ABI: [
+  {
+    "type": "constructor",
+    "inputs": [
+      {
+        "name": "_maxWhitelistedAddresses",
+        "type": "uint8",
+        "internalType": "uint8"
+      }
+    ],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "addAddressToWhitelist",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "maxWhitelistedAddresses",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint8",
+        "internalType": "uint8"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "numAddressesWhitelisted",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint8",
+        "internalType": "uint8"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "whitelistedAddresses",
+    "inputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool",
+        "internalType": "bool"
+      }
+    ],
+    "stateMutability": "view"
+  }
+]
+
